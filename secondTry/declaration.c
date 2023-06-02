@@ -394,7 +394,17 @@ Subway* MallocOddSubway(Station *stationArrayPtr){
         oddSubwayArr[i].num=subwayNum;
         subwayNum+=2;
         oddSubwayArr[i].station = stationArrayPtr[17];//왕십리 역 
+        for(int j = 0 ; j < 43; j++){
+            oddSubwayArr[i].stationCycleCount[j] = 0; //노선 순환 횟수
+        }
+        for(int j = 0 ; j <4 ; j++){
+            oddSubwayArr[i].stationWayXYArr1[j] = 0; //상단 노선 횟수
+            oddSubwayArr[i].stationWayXYArr2[j] = 0; //상단 노선 횟수
+
+        }
+
     }
+    
     return oddSubwayArr;
 }
 

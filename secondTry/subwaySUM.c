@@ -21,7 +21,7 @@ typedef struct
     int num;//차번
     Station station;//정차한 역 정보(좌표, 역 이름)
     int stop; //정차 여부 (정차했을 시 1, 정차 안 했을 시 0)
-    struct tm* stopTime;//정차를 시작한 시각
+    int stopTime[2];//정차를 시작한 시각(시, 분)
     struct tm* movingTime;//노선 이동 시작 시각
 } Subway;
 
@@ -84,7 +84,8 @@ int main(){
         if((localTime_p->tm_hour==2&&localTime_p->tm_min==0)||a==false){
             a=true;
             //1호선 정차 시분 2시 0분으로 세팅
-            oddSubwayArrPtr[0].stopTime=localTime_p;
+            oddSubwayArrPtr[0].stopTime[0]=localTime_p->tm_hour;
+            oddSubwayArrPtr[0].stopTime[1]=localTime_p->tm_min;
             //홀수 지하철 출발 시각
             oddSubwayStartTime = localTime_p;
             //정차
@@ -92,23 +93,30 @@ int main(){
         }
        
         //왕십리 역에 정차한 후 5분이 지난지 판단하고 5분이 지났다면  한양대 역으로 이동(왕십리역과 한양대역 중간의 노선에서 2분간 존재)
-        if((((localTime_p->tm_hour)==(oddSubwayArrPtr[0].stopTime->tm_hour))&&(((localTime_p->tm_min)-(oddSubwayArrPtr[0].stopTime->tm_min))>=FIVE_MIN))||(((localTime_p->tm_hour-1)==(oddSubwayArrPtr[0].stopTime->tm_hour))&&(((localTime_p->tm_min+60)-(oddSubwayArrPtr[0].stopTime->tm_min))>=FIVE_MIN))){
-            //시각이 변하지 않고 분만 변할시||시각도 변하고 분도 변할시
+        if(localTime_p->tm_hour== oddSubwayArrPtr[0].stopTime[0]&&localTime_p->tm_min-oddSubwayArrPtr[0].stopTime[1]>=FIVE_MIN){
+            //시각이 변하지 않고 분만 변할시
             //정차 아님으로 변경
             oddSubwayArrPtr[0].stop = 0;
             //노선이동 시작 시각 갱신
             oddSubwayArrPtr[0].movingTime = localTime_p;
             //왕십리역과 한양대역 중간 노선으로 좌표 이동
             oddSubwayArrPtr[0].station.oddYX[1]++;
-
-            
+        }
+        else if(localTime_p->tm_hour!= oddSubwayArrPtr[0].stopTime[0]&&(localTime_p->tm_min+60)-oddSubwayArrPtr[0].stopTime[1]>=FIVE_MIN){
+            //시각도 변하고 분도 변할시
+            //정차 아님으로 변경
+            oddSubwayArrPtr[0].stop = 0;
+            //노선이동 시작 시각 갱신
+            oddSubwayArrPtr[0].movingTime = localTime_p;
+            //왕십리역과 한양대역 중간 노선으로 좌표 이동
+            oddSubwayArrPtr[0].station.oddYX[1]++;
         }
         
 
         //지하철 노선 출력
         printWay(arr, oddSubwayArrPtr);
 
-        sleep(5);
+        sleep(1);
     }
 
 
