@@ -1,0 +1,2247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>799</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QWidget" name="widget_61" native="true">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>20</y>
+     <width>360</width>
+     <height>550</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>360</width>
+     <height>550</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>360</width>
+     <height>550</height>
+    </size>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout_19">
+    <item>
+     <widget class="QWidget" name="widget_62" native="true">
+      <property name="minimumSize">
+       <size>
+        <width>0</width>
+        <height>20</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>16777215</width>
+        <height>20</height>
+       </size>
+      </property>
+      <layout class="QHBoxLayout" name="horizontalLayout_61">
+       <property name="leftMargin">
+        <number>0</number>
+       </property>
+       <property name="topMargin">
+        <number>0</number>
+       </property>
+       <item>
+        <widget class="QPushButton" name="btn_back">
+         <property name="minimumSize">
+          <size>
+           <width>30</width>
+           <height>20</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>30</width>
+           <height>20</height>
+          </size>
+         </property>
+         <property name="font">
+          <font>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="text">
+          <string>&lt;</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <spacer name="horizontalSpacer">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>40</width>
+           <height>20</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+      </layout>
+     </widget>
+    </item>
+    <item>
+     <widget class="QScrollArea" name="scrollArea">
+      <property name="minimumSize">
+       <size>
+        <width>360</width>
+        <height>500</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>360</width>
+        <height>500</height>
+       </size>
+      </property>
+      <property name="widgetResizable">
+       <bool>true</bool>
+      </property>
+      <widget class="QWidget" name="scrollAreaWidgetContents">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>0</y>
+         <width>341</width>
+         <height>2573</height>
+        </rect>
+       </property>
+       <layout class="QVBoxLayout" name="verticalLayout_18">
+        <item>
+         <widget class="QWidget" name="widget_261" native="true">
+          <property name="minimumSize">
+           <size>
+            <width>318</width>
+            <height>250</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>318</width>
+            <height>250</height>
+           </size>
+          </property>
+          <layout class="QVBoxLayout" name="verticalLayout_23">
+           <property name="spacing">
+            <number>6</number>
+           </property>
+           <property name="leftMargin">
+            <number>0</number>
+           </property>
+           <property name="topMargin">
+            <number>0</number>
+           </property>
+           <item>
+            <widget class="QWidget" name="widget_img_2" native="true">
+             <property name="minimumSize">
+              <size>
+               <width>282</width>
+               <height>100</height>
+              </size>
+             </property>
+             <property name="maximumSize">
+              <size>
+               <width>300</width>
+               <height>100</height>
+              </size>
+             </property>
+             <layout class="QVBoxLayout" name="verticalLayout_27">
+              <item>
+               <widget class="QLabel" name="label_img">
+                <property name="text">
+                 <string/>
+                </property>
+                <property name="textFormat">
+                 <enum>Qt::AutoText</enum>
+                </property>
+                <property name="pixmap">
+                 <pixmap>../../../../Desktop/쿠치나/[주문율 1등].png</pixmap>
+                </property>
+                <property name="scaledContents">
+                 <bool>false</bool>
+                </property>
+                <property name="alignment">
+                 <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+                </property>
+                <property name="wordWrap">
+                 <bool>false</bool>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </widget>
+           </item>
+           <item>
+            <widget class="QWidget" name="widget_262" native="true">
+             <property name="minimumSize">
+              <size>
+               <width>0</width>
+               <height>50</height>
+              </size>
+             </property>
+             <property name="maximumSize">
+              <size>
+               <width>16777215</width>
+               <height>50</height>
+              </size>
+             </property>
+             <layout class="QVBoxLayout" name="verticalLayout_31">
+              <item>
+               <widget class="QLabel" name="label_product_name">
+                <property name="font">
+                 <font>
+                  <pointsize>12</pointsize>
+                  <weight>75</weight>
+                  <bold>true</bold>
+                 </font>
+                </property>
+                <property name="text">
+                 <string/>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </widget>
+           </item>
+           <item>
+            <widget class="QWidget" name="widget_263" native="true">
+             <property name="minimumSize">
+              <size>
+               <width>0</width>
+               <height>100</height>
+              </size>
+             </property>
+             <property name="maximumSize">
+              <size>
+               <width>16777215</width>
+               <height>100</height>
+              </size>
+             </property>
+             <layout class="QVBoxLayout" name="verticalLayout">
+              <item>
+               <widget class="QWidget" name="widget" native="true">
+                <property name="minimumSize">
+                 <size>
+                  <width>300</width>
+                  <height>50</height>
+                 </size>
+                </property>
+                <property name="maximumSize">
+                 <size>
+                  <width>300</width>
+                  <height>50</height>
+                 </size>
+                </property>
+                <layout class="QVBoxLayout" name="verticalLayout_2">
+                 <item>
+                  <widget class="QLabel" name="label">
+                   <property name="minimumSize">
+                    <size>
+                     <width>0</width>
+                     <height>50</height>
+                    </size>
+                   </property>
+                   <property name="maximumSize">
+                    <size>
+                     <width>16777215</width>
+                     <height>50</height>
+                    </size>
+                   </property>
+                   <property name="font">
+                    <font>
+                     <pointsize>12</pointsize>
+                     <weight>75</weight>
+                     <bold>true</bold>
+                    </font>
+                   </property>
+                   <property name="text">
+                    <string>가격</string>
+                   </property>
+                  </widget>
+                 </item>
+                </layout>
+               </widget>
+              </item>
+              <item>
+               <widget class="QWidget" name="widget_price" native="true">
+                <property name="minimumSize">
+                 <size>
+                  <width>300</width>
+                  <height>50</height>
+                 </size>
+                </property>
+                <property name="maximumSize">
+                 <size>
+                  <width>300</width>
+                  <height>50</height>
+                 </size>
+                </property>
+                <layout class="QHBoxLayout" name="horizontalLayout">
+                 <item>
+                  <widget class="QLabel" name="label_RL">
+                   <property name="text">
+                    <string/>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QLabel" name="label_price">
+                   <property name="text">
+                    <string>TextLabel</string>
+                   </property>
+                  </widget>
+                 </item>
+                </layout>
+               </widget>
+              </item>
+             </layout>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+        </item>
+        <item>
+         <widget class="QWidget" name="widget_2" native="true">
+          <property name="minimumSize">
+           <size>
+            <width>318</width>
+            <height>0</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>318</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <layout class="QVBoxLayout" name="verticalLayout_15">
+           <property name="leftMargin">
+            <number>0</number>
+           </property>
+           <item>
+            <widget class="QWidget" name="widget_whole" native="true">
+             <property name="minimumSize">
+              <size>
+               <width>318</width>
+               <height>0</height>
+              </size>
+             </property>
+             <property name="maximumSize">
+              <size>
+               <width>318</width>
+               <height>16777215</height>
+              </size>
+             </property>
+             <layout class="QVBoxLayout" name="verticalLayout_9">
+              <property name="leftMargin">
+               <number>0</number>
+              </property>
+              <property name="topMargin">
+               <number>0</number>
+              </property>
+              <item>
+               <widget class="QWidget" name="widget_title" native="true">
+                <layout class="QVBoxLayout" name="verticalLayout_10">
+                 <item>
+                  <widget class="QLabel" name="label_20">
+                   <property name="font">
+                    <font>
+                     <pointsize>10</pointsize>
+                     <weight>75</weight>
+                     <bold>true</bold>
+                    </font>
+                   </property>
+                   <property name="text">
+                    <string>클래식피자 선택</string>
+                   </property>
+                  </widget>
+                 </item>
+                </layout>
+               </widget>
+              </item>
+              <item>
+               <widget class="QWidget" name="widget_1" native="true">
+                <layout class="QHBoxLayout" name="horizontalLayout_3">
+                 <item>
+                  <widget class="QCheckBox" name="checkBox_1">
+                   <property name="text">
+                    <string>미트&amp;씨푸드</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QLabel" name="theGogumaPrice">
+                   <property name="text">
+                    <string>+0원</string>
+                   </property>
+                   <property name="alignment">
+                    <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+                   </property>
+                  </widget>
+                 </item>
+                </layout>
+               </widget>
+              </item>
+              <item>
+               <widget class="QWidget" name="widget_3" native="true">
+                <layout class="QHBoxLayout" name="horizontalLayout_2">
+                 <item>
+                  <widget class="QCheckBox" name="checkBox_2">
+                   <property name="text">
+                    <string>비프불고기</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QLabel" name="redPeperoni">
+                   <property name="text">
+                    <string>+0원</string>
+                   </property>
+                   <property name="alignment">
+                    <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+                   </property>
+                  </widget>
+                 </item>
+                </layout>
+               </widget>
+              </item>
+              <item>
+               <widget class="QWidget" name="widget_4" native="true">
+                <layout class="QHBoxLayout" name="horizontalLayout_4">
+                 <item>
+                  <widget class="QCheckBox" name="checkBox_3">
+                   <property name="text">
+                    <string>더블치즈포테이토</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QLabel" name="Grildhotchicken">
+                   <property name="text">
+                    <string>+0원</string>
+                   </property>
+                   <property name="alignment">
+                    <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+                   </property>
+                  </widget>
+                 </item>
+                </layout>
+               </widget>
+              </item>
+              <item>
+               <widget class="QWidget" name="widget_5" native="true">
+                <layout class="QHBoxLayout" name="horizontalLayout_5">
+                 <item>
+                  <widget class="QCheckBox" name="checkBox_4">
+                   <property name="text">
+                    <string>프레쉬모짜렐라</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QLabel" name="bakoncheda">
+                   <property name="text">
+                    <string>+0원</string>
+                   </property>
+                   <property name="alignment">
+                    <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+                   </property>
+                  </widget>
+                 </item>
+                </layout>
+               </widget>
+              </item>
+              <item>
+               <widget class="QWidget" name="widget_6" native="true">
+                <layout class="QHBoxLayout" name="horizontalLayout_6">
+                 <item>
+                  <widget class="QCheckBox" name="checkBox_5">
+                   <property name="text">
+                    <string>수퍼슈프림</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QLabel" name="bakoncheda_2">
+                   <property name="text">
+                    <string>+0원</string>
+                   </property>
+                   <property name="alignment">
+                    <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+                   </property>
+                  </widget>
+                 </item>
+                </layout>
+               </widget>
+              </item>
+              <item>
+               <widget class="QWidget" name="widget_7" native="true">
+                <layout class="QHBoxLayout" name="horizontalLayout_7">
+                 <item>
+                  <widget class="QCheckBox" name="checkBox_6">
+                   <property name="text">
+                    <string>에그토스트</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QLabel" name="bakoncheda_3">
+                   <property name="text">
+                    <string>+0원</string>
+                   </property>
+                   <property name="alignment">
+                    <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+                   </property>
+                  </widget>
+                 </item>
+                </layout>
+               </widget>
+              </item>
+              <item>
+               <widget class="QWidget" name="widget_8" native="true">
+                <layout class="QHBoxLayout" name="horizontalLayout_8">
+                 <item>
+                  <widget class="QCheckBox" name="checkBox_7">
+                   <property name="text">
+                    <string>갈릭버터포테이토</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QLabel" name="bakoncheda_4">
+                   <property name="text">
+                    <string>+0원</string>
+                   </property>
+                   <property name="alignment">
+                    <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+                   </property>
+                  </widget>
+                 </item>
+                </layout>
+               </widget>
+              </item>
+             </layout>
+            </widget>
+           </item>
+           <item>
+            <widget class="QWidget" name="widget_whole_2" native="true">
+             <property name="minimumSize">
+              <size>
+               <width>318</width>
+               <height>0</height>
+              </size>
+             </property>
+             <property name="maximumSize">
+              <size>
+               <width>318</width>
+               <height>16777215</height>
+              </size>
+             </property>
+             <layout class="QVBoxLayout" name="verticalLayout_3">
+              <property name="leftMargin">
+               <number>0</number>
+              </property>
+              <property name="topMargin">
+               <number>0</number>
+              </property>
+              <item>
+               <widget class="QWidget" name="widget_title_2" native="true">
+                <layout class="QVBoxLayout" name="verticalLayout_4">
+                 <item>
+                  <widget class="QLabel" name="label_2">
+                   <property name="font">
+                    <font>
+                     <pointsize>10</pointsize>
+                     <weight>75</weight>
+                     <bold>true</bold>
+                    </font>
+                   </property>
+                   <property name="text">
+                    <string>치킨강정 선택</string>
+                   </property>
+                  </widget>
+                 </item>
+                </layout>
+               </widget>
+              </item>
+              <item>
+               <widget class="QWidget" name="widget_21" native="true">
+                <property name="minimumSize">
+                 <size>
+                  <width>318</width>
+                  <height>0</height>
+                 </size>
+                </property>
+                <property name="maximumSize">
+                 <size>
+                  <width>318</width>
+                  <height>16777215</height>
+                 </size>
+                </property>
+                <layout class="QHBoxLayout" name="horizontalLayout_21">
+                 <item>
+                  <widget class="QCheckBox" name="checkBox_8">
+                   <property name="text">
+                    <string>허니갈릭</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QLabel" name="meatSpaghetti">
+                   <property name="text">
+                    <string>+0원</string>
+                   </property>
+                   <property name="alignment">
+                    <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+                   </property>
+                  </widget>
+                 </item>
+                </layout>
+               </widget>
+              </item>
+              <item>
+               <widget class="QWidget" name="widget_22" native="true">
+                <property name="minimumSize">
+                 <size>
+                  <width>318</width>
+                  <height>0</height>
+                 </size>
+                </property>
+                <property name="maximumSize">
+                 <size>
+                  <width>318</width>
+                  <height>16777215</height>
+                 </size>
+                </property>
+                <layout class="QHBoxLayout" name="horizontalLayout_22">
+                 <item>
+                  <widget class="QCheckBox" name="checkBox_9">
+                   <property name="text">
+                    <string>고추간장</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QLabel" name="baconcrimSpaghetti">
+                   <property name="text">
+                    <string>+0원</string>
+                   </property>
+                   <property name="alignment">
+                    <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+                   </property>
+                  </widget>
+                 </item>
+                </layout>
+               </widget>
+              </item>
+              <item>
+               <widget class="QWidget" name="widget_63" native="true">
+                <property name="minimumSize">
+                 <size>
+                  <width>318</width>
+                  <height>0</height>
+                 </size>
+                </property>
+                <property name="maximumSize">
+                 <size>
+                  <width>318</width>
+                  <height>16777215</height>
+                 </size>
+                </property>
+                <layout class="QHBoxLayout" name="horizontalLayout_62">
+                 <item>
+                  <widget class="QCheckBox" name="checkBox_10">
+                   <property name="text">
+                    <string>오리지널</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QLabel" name="baconcrimSpaghetti_2">
+                   <property name="text">
+                    <string>+0원</string>
+                   </property>
+                   <property name="alignment">
+                    <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+                   </property>
+                  </widget>
+                 </item>
+                </layout>
+               </widget>
+              </item>
+             </layout>
+            </widget>
+           </item>
+           <item>
+            <widget class="QWidget" name="widget_whole_3" native="true">
+             <property name="minimumSize">
+              <size>
+               <width>318</width>
+               <height>0</height>
+              </size>
+             </property>
+             <property name="maximumSize">
+              <size>
+               <width>318</width>
+               <height>16777215</height>
+              </size>
+             </property>
+             <layout class="QVBoxLayout" name="verticalLayout_5">
+              <item>
+               <widget class="QWidget" name="widget_title_3" native="true">
+                <layout class="QVBoxLayout" name="verticalLayout_6">
+                 <item>
+                  <widget class="QLabel" name="label_27">
+                   <property name="font">
+                    <font>
+                     <pointsize>10</pointsize>
+                     <weight>75</weight>
+                     <bold>true</bold>
+                    </font>
+                   </property>
+                   <property name="text">
+                    <string>엣지R 추가선택</string>
+                   </property>
+                  </widget>
+                 </item>
+                </layout>
+               </widget>
+              </item>
+              <item>
+               <widget class="QWidget" name="widget_23" native="true">
+                <property name="minimumSize">
+                 <size>
+                  <width>318</width>
+                  <height>0</height>
+                 </size>
+                </property>
+                <property name="maximumSize">
+                 <size>
+                  <width>318</width>
+                  <height>16777215</height>
+                 </size>
+                </property>
+                <layout class="QHBoxLayout" name="horizontalLayout_23">
+                 <item>
+                  <widget class="QCheckBox" name="checkBox_11">
+                   <property name="text">
+                    <string>치즈크러스트(R)</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QLabel" name="cheeseCrust">
+                   <property name="text">
+                    <string>+3000원</string>
+                   </property>
+                   <property name="alignment">
+                    <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+                   </property>
+                  </widget>
+                 </item>
+                </layout>
+               </widget>
+              </item>
+              <item>
+               <widget class="QWidget" name="widget_24" native="true">
+                <property name="minimumSize">
+                 <size>
+                  <width>318</width>
+                  <height>0</height>
+                 </size>
+                </property>
+                <property name="maximumSize">
+                 <size>
+                  <width>318</width>
+                  <height>16777215</height>
+                 </size>
+                </property>
+                <layout class="QHBoxLayout" name="horizontalLayout_24">
+                 <item>
+                  <widget class="QCheckBox" name="checkBox_12">
+                   <property name="text">
+                    <string>고구마골드링(R)</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QLabel" name="gogumaGoldring">
+                   <property name="text">
+                    <string>+3000원</string>
+                   </property>
+                   <property name="alignment">
+                    <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+                   </property>
+                  </widget>
+                 </item>
+                </layout>
+               </widget>
+              </item>
+             </layout>
+            </widget>
+           </item>
+           <item>
+            <widget class="QWidget" name="widget_whole_4" native="true">
+             <property name="minimumSize">
+              <size>
+               <width>318</width>
+               <height>0</height>
+              </size>
+             </property>
+             <property name="maximumSize">
+              <size>
+               <width>318</width>
+               <height>16777215</height>
+              </size>
+             </property>
+             <layout class="QVBoxLayout" name="verticalLayout_7">
+              <item>
+               <widget class="QWidget" name="widget_title_4" native="true">
+                <layout class="QVBoxLayout" name="verticalLayout_8">
+                 <item>
+                  <widget class="QLabel" name="label_32">
+                   <property name="font">
+                    <font>
+                     <pointsize>10</pointsize>
+                     <weight>75</weight>
+                     <bold>true</bold>
+                    </font>
+                   </property>
+                   <property name="text">
+                    <string>음료 추가선택</string>
+                   </property>
+                  </widget>
+                 </item>
+                </layout>
+               </widget>
+              </item>
+              <item>
+               <widget class="QWidget" name="widget_25" native="true">
+                <property name="minimumSize">
+                 <size>
+                  <width>318</width>
+                  <height>0</height>
+                 </size>
+                </property>
+                <property name="maximumSize">
+                 <size>
+                  <width>318</width>
+                  <height>16777215</height>
+                 </size>
+                </property>
+                <layout class="QHBoxLayout" name="horizontalLayout_25">
+                 <item>
+                  <widget class="QCheckBox" name="checkBox_13">
+                   <property name="text">
+                    <string>펩시1.25L 추가</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QLabel" name="pepsi125L">
+                   <property name="text">
+                    <string>+2500원</string>
+                   </property>
+                   <property name="alignment">
+                    <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+                   </property>
+                  </widget>
+                 </item>
+                </layout>
+               </widget>
+              </item>
+              <item>
+               <widget class="QWidget" name="widget_26" native="true">
+                <property name="minimumSize">
+                 <size>
+                  <width>318</width>
+                  <height>0</height>
+                 </size>
+                </property>
+                <property name="maximumSize">
+                 <size>
+                  <width>318</width>
+                  <height>16777215</height>
+                 </size>
+                </property>
+                <layout class="QHBoxLayout" name="horizontalLayout_26">
+                 <item>
+                  <widget class="QCheckBox" name="checkBox_14">
+                   <property name="text">
+                    <string>펩시500ML 추가</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QLabel" name="pepsi500ml">
+                   <property name="text">
+                    <string>+1500원</string>
+                   </property>
+                   <property name="alignment">
+                    <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+                   </property>
+                  </widget>
+                 </item>
+                </layout>
+               </widget>
+              </item>
+              <item>
+               <widget class="QWidget" name="widget_27" native="true">
+                <property name="minimumSize">
+                 <size>
+                  <width>318</width>
+                  <height>0</height>
+                 </size>
+                </property>
+                <property name="maximumSize">
+                 <size>
+                  <width>318</width>
+                  <height>16777215</height>
+                 </size>
+                </property>
+                <layout class="QHBoxLayout" name="horizontalLayout_27">
+                 <item>
+                  <widget class="QCheckBox" name="checkBox_15">
+                   <property name="text">
+                    <string>칠성사이다1.25L 추가</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QLabel" name="chilsung125L">
+                   <property name="text">
+                    <string>+2500원</string>
+                   </property>
+                   <property name="alignment">
+                    <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+                   </property>
+                  </widget>
+                 </item>
+                </layout>
+               </widget>
+              </item>
+              <item>
+               <widget class="QWidget" name="widget_28" native="true">
+                <property name="minimumSize">
+                 <size>
+                  <width>318</width>
+                  <height>0</height>
+                 </size>
+                </property>
+                <property name="maximumSize">
+                 <size>
+                  <width>318</width>
+                  <height>16777215</height>
+                 </size>
+                </property>
+                <layout class="QHBoxLayout" name="horizontalLayout_28">
+                 <item>
+                  <widget class="QCheckBox" name="checkBox_16">
+                   <property name="text">
+                    <string>칠성사이다500ML 추가</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QLabel" name="chilsung500ml">
+                   <property name="text">
+                    <string>+1500원</string>
+                   </property>
+                   <property name="alignment">
+                    <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+                   </property>
+                  </widget>
+                 </item>
+                </layout>
+               </widget>
+              </item>
+             </layout>
+            </widget>
+           </item>
+           <item>
+            <widget class="QWidget" name="widget_whole_5" native="true">
+             <property name="minimumSize">
+              <size>
+               <width>318</width>
+               <height>0</height>
+              </size>
+             </property>
+             <property name="maximumSize">
+              <size>
+               <width>318</width>
+               <height>16777215</height>
+              </size>
+             </property>
+             <layout class="QVBoxLayout" name="verticalLayout_11">
+              <item>
+               <widget class="QWidget" name="widget_title_5" native="true">
+                <layout class="QVBoxLayout" name="verticalLayout_12">
+                 <item>
+                  <widget class="QLabel" name="label_41">
+                   <property name="font">
+                    <font>
+                     <pointsize>10</pointsize>
+                     <weight>75</weight>
+                     <bold>true</bold>
+                    </font>
+                   </property>
+                   <property name="text">
+                    <string>기타 추가선택</string>
+                   </property>
+                  </widget>
+                 </item>
+                </layout>
+               </widget>
+              </item>
+              <item>
+               <widget class="QWidget" name="widget_29" native="true">
+                <property name="minimumSize">
+                 <size>
+                  <width>318</width>
+                  <height>0</height>
+                 </size>
+                </property>
+                <property name="maximumSize">
+                 <size>
+                  <width>318</width>
+                  <height>16777215</height>
+                 </size>
+                </property>
+                <layout class="QHBoxLayout" name="horizontalLayout_29">
+                 <item>
+                  <widget class="QCheckBox" name="checkBox_17">
+                   <property name="text">
+                    <string>피클 추가</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QLabel" name="picle">
+                   <property name="text">
+                    <string>+500원</string>
+                   </property>
+                   <property name="alignment">
+                    <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+                   </property>
+                  </widget>
+                 </item>
+                </layout>
+               </widget>
+              </item>
+              <item>
+               <widget class="QWidget" name="widget_30" native="true">
+                <property name="minimumSize">
+                 <size>
+                  <width>318</width>
+                  <height>0</height>
+                 </size>
+                </property>
+                <property name="maximumSize">
+                 <size>
+                  <width>318</width>
+                  <height>16777215</height>
+                 </size>
+                </property>
+                <layout class="QHBoxLayout" name="horizontalLayout_30">
+                 <item>
+                  <widget class="QCheckBox" name="checkBox_18">
+                   <property name="text">
+                    <string>갈릭디핑소스 추가</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QLabel" name="garlicDeeping">
+                   <property name="text">
+                    <string>+400원</string>
+                   </property>
+                   <property name="alignment">
+                    <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+                   </property>
+                  </widget>
+                 </item>
+                </layout>
+               </widget>
+              </item>
+              <item>
+               <widget class="QWidget" name="widget_31" native="true">
+                <property name="minimumSize">
+                 <size>
+                  <width>318</width>
+                  <height>0</height>
+                 </size>
+                </property>
+                <property name="maximumSize">
+                 <size>
+                  <width>318</width>
+                  <height>16777215</height>
+                 </size>
+                </property>
+                <layout class="QHBoxLayout" name="horizontalLayout_31">
+                 <item>
+                  <widget class="QCheckBox" name="checkBox_19">
+                   <property name="text">
+                    <string>핫소스 추가</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QLabel" name="hotSource">
+                   <property name="text">
+                    <string>+100원</string>
+                   </property>
+                   <property name="alignment">
+                    <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+                   </property>
+                  </widget>
+                 </item>
+                </layout>
+               </widget>
+              </item>
+              <item>
+               <widget class="QWidget" name="widget_32" native="true">
+                <property name="minimumSize">
+                 <size>
+                  <width>318</width>
+                  <height>0</height>
+                 </size>
+                </property>
+                <property name="maximumSize">
+                 <size>
+                  <width>318</width>
+                  <height>16777215</height>
+                 </size>
+                </property>
+                <layout class="QHBoxLayout" name="horizontalLayout_32">
+                 <item>
+                  <widget class="QCheckBox" name="checkBox_20">
+                   <property name="text">
+                    <string>꿀 추가</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QLabel" name="honey">
+                   <property name="text">
+                    <string>+1000원</string>
+                   </property>
+                   <property name="alignment">
+                    <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+                   </property>
+                  </widget>
+                 </item>
+                </layout>
+               </widget>
+              </item>
+             </layout>
+            </widget>
+           </item>
+           <item>
+            <widget class="QWidget" name="widget_whole_6" native="true">
+             <property name="minimumSize">
+              <size>
+               <width>318</width>
+               <height>0</height>
+              </size>
+             </property>
+             <property name="maximumSize">
+              <size>
+               <width>318</width>
+               <height>16777215</height>
+              </size>
+             </property>
+             <layout class="QVBoxLayout" name="verticalLayout_13">
+              <item>
+               <widget class="QWidget" name="widget_title_6" native="true">
+                <layout class="QVBoxLayout" name="verticalLayout_14">
+                 <item>
+                  <widget class="QLabel" name="label_50">
+                   <property name="font">
+                    <font>
+                     <pointsize>10</pointsize>
+                     <weight>75</weight>
+                     <bold>true</bold>
+                    </font>
+                   </property>
+                   <property name="text">
+                    <string>사이드 메뉴 추가선택</string>
+                   </property>
+                  </widget>
+                 </item>
+                </layout>
+               </widget>
+              </item>
+              <item>
+               <widget class="QWidget" name="widget_33" native="true">
+                <property name="minimumSize">
+                 <size>
+                  <width>318</width>
+                  <height>0</height>
+                 </size>
+                </property>
+                <property name="maximumSize">
+                 <size>
+                  <width>318</width>
+                  <height>16777215</height>
+                 </size>
+                </property>
+                <layout class="QHBoxLayout" name="horizontalLayout_33">
+                 <item>
+                  <widget class="QCheckBox" name="checkBox_21">
+                   <property name="text">
+                    <string>미트스파게티 추가</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QLabel" name="meatSpagheti">
+                   <property name="text">
+                    <string>+7900원</string>
+                   </property>
+                   <property name="alignment">
+                    <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+                   </property>
+                  </widget>
+                 </item>
+                </layout>
+               </widget>
+              </item>
+              <item>
+               <widget class="QWidget" name="widget_34" native="true">
+                <property name="minimumSize">
+                 <size>
+                  <width>318</width>
+                  <height>0</height>
+                 </size>
+                </property>
+                <property name="maximumSize">
+                 <size>
+                  <width>318</width>
+                  <height>16777215</height>
+                 </size>
+                </property>
+                <layout class="QHBoxLayout" name="horizontalLayout_34">
+                 <item>
+                  <widget class="QCheckBox" name="checkBox_22">
+                   <property name="text">
+                    <string>베이컨크림스파게티 추가</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QLabel" name="baconCrimSpaghetti">
+                   <property name="text">
+                    <string>+7900원</string>
+                   </property>
+                   <property name="alignment">
+                    <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+                   </property>
+                  </widget>
+                 </item>
+                </layout>
+               </widget>
+              </item>
+              <item>
+               <widget class="QWidget" name="widget_35" native="true">
+                <property name="minimumSize">
+                 <size>
+                  <width>318</width>
+                  <height>0</height>
+                 </size>
+                </property>
+                <property name="maximumSize">
+                 <size>
+                  <width>318</width>
+                  <height>16777215</height>
+                 </size>
+                </property>
+                <layout class="QHBoxLayout" name="horizontalLayout_35">
+                 <item>
+                  <widget class="QCheckBox" name="checkBox_23">
+                   <property name="text">
+                    <string>치즈볼 추가</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QLabel" name="cheeseBall">
+                   <property name="text">
+                    <string>+3900원</string>
+                   </property>
+                   <property name="alignment">
+                    <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+                   </property>
+                  </widget>
+                 </item>
+                </layout>
+               </widget>
+              </item>
+              <item>
+               <widget class="QWidget" name="widget_36" native="true">
+                <property name="minimumSize">
+                 <size>
+                  <width>318</width>
+                  <height>0</height>
+                 </size>
+                </property>
+                <property name="maximumSize">
+                 <size>
+                  <width>318</width>
+                  <height>16777215</height>
+                 </size>
+                </property>
+                <layout class="QHBoxLayout" name="horizontalLayout_36">
+                 <item>
+                  <widget class="QCheckBox" name="checkBox_24">
+                   <property name="text">
+                    <string>오징어링 추가</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QLabel" name="ojingring">
+                   <property name="text">
+                    <string>+2900원</string>
+                   </property>
+                   <property name="alignment">
+                    <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+                   </property>
+                  </widget>
+                 </item>
+                </layout>
+               </widget>
+              </item>
+              <item>
+               <widget class="QWidget" name="widget_37" native="true">
+                <property name="minimumSize">
+                 <size>
+                  <width>318</width>
+                  <height>0</height>
+                 </size>
+                </property>
+                <property name="maximumSize">
+                 <size>
+                  <width>318</width>
+                  <height>16777215</height>
+                 </size>
+                </property>
+                <layout class="QHBoxLayout" name="horizontalLayout_37">
+                 <item>
+                  <widget class="QCheckBox" name="checkBox_25">
+                   <property name="text">
+                    <string>버팔로윙 추가</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QLabel" name="bupalowing">
+                   <property name="text">
+                    <string>+5900원</string>
+                   </property>
+                   <property name="alignment">
+                    <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+                   </property>
+                  </widget>
+                 </item>
+                </layout>
+               </widget>
+              </item>
+              <item>
+               <widget class="QWidget" name="widget_38" native="true">
+                <property name="minimumSize">
+                 <size>
+                  <width>318</width>
+                  <height>0</height>
+                 </size>
+                </property>
+                <property name="maximumSize">
+                 <size>
+                  <width>318</width>
+                  <height>16777215</height>
+                 </size>
+                </property>
+                <layout class="QHBoxLayout" name="horizontalLayout_38">
+                 <item>
+                  <widget class="QCheckBox" name="checkBox_26">
+                   <property name="text">
+                    <string>쿠치나떡볶이 추가</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QLabel" name="cucinatukpokki">
+                   <property name="text">
+                    <string>+7900원</string>
+                   </property>
+                   <property name="alignment">
+                    <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+                   </property>
+                  </widget>
+                 </item>
+                </layout>
+               </widget>
+              </item>
+              <item>
+               <widget class="QWidget" name="widget_39" native="true">
+                <property name="minimumSize">
+                 <size>
+                  <width>318</width>
+                  <height>0</height>
+                 </size>
+                </property>
+                <property name="maximumSize">
+                 <size>
+                  <width>318</width>
+                  <height>16777215</height>
+                 </size>
+                </property>
+                <layout class="QHBoxLayout" name="horizontalLayout_39">
+                 <item>
+                  <widget class="QCheckBox" name="checkBox_27">
+                   <property name="text">
+                    <string>로제투움바떡볶이 추가</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QLabel" name="lojetoombar">
+                   <property name="text">
+                    <string>+8900원</string>
+                   </property>
+                   <property name="alignment">
+                    <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+                   </property>
+                  </widget>
+                 </item>
+                </layout>
+               </widget>
+              </item>
+              <item>
+               <widget class="QWidget" name="widget_40" native="true">
+                <property name="minimumSize">
+                 <size>
+                  <width>318</width>
+                  <height>0</height>
+                 </size>
+                </property>
+                <property name="maximumSize">
+                 <size>
+                  <width>318</width>
+                  <height>16777215</height>
+                 </size>
+                </property>
+                <layout class="QHBoxLayout" name="horizontalLayout_40">
+                 <item>
+                  <widget class="QCheckBox" name="checkBox_28">
+                   <property name="text">
+                    <string>로제불닭라이스</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QLabel" name="lojeBoolDak">
+                   <property name="text">
+                    <string>+6900원</string>
+                   </property>
+                   <property name="alignment">
+                    <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+                   </property>
+                  </widget>
+                 </item>
+                </layout>
+               </widget>
+              </item>
+              <item>
+               <widget class="QWidget" name="widget_41" native="true">
+                <property name="minimumSize">
+                 <size>
+                  <width>318</width>
+                  <height>0</height>
+                 </size>
+                </property>
+                <property name="maximumSize">
+                 <size>
+                  <width>318</width>
+                  <height>16777215</height>
+                 </size>
+                </property>
+                <layout class="QHBoxLayout" name="horizontalLayout_41">
+                 <item>
+                  <widget class="QCheckBox" name="checkBox_29">
+                   <property name="text">
+                    <string>소세지마요라이스</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QLabel" name="sosejiMayoRice">
+                   <property name="text">
+                    <string>+6900원</string>
+                   </property>
+                   <property name="alignment">
+                    <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+                   </property>
+                  </widget>
+                 </item>
+                </layout>
+               </widget>
+              </item>
+             </layout>
+            </widget>
+           </item>
+           <item>
+            <widget class="QWidget" name="widget_whole_7" native="true">
+             <property name="minimumSize">
+              <size>
+               <width>318</width>
+               <height>0</height>
+              </size>
+             </property>
+             <property name="maximumSize">
+              <size>
+               <width>318</width>
+               <height>16777215</height>
+              </size>
+             </property>
+             <layout class="QVBoxLayout" name="verticalLayout_16">
+              <item>
+               <widget class="QWidget" name="widget_title_7" native="true">
+                <layout class="QVBoxLayout" name="verticalLayout_17">
+                 <item>
+                  <widget class="QLabel" name="label_69">
+                   <property name="font">
+                    <font>
+                     <pointsize>10</pointsize>
+                     <weight>75</weight>
+                     <bold>true</bold>
+                    </font>
+                   </property>
+                   <property name="text">
+                    <string>토핑 추가선택</string>
+                   </property>
+                  </widget>
+                 </item>
+                </layout>
+               </widget>
+              </item>
+              <item>
+               <widget class="QWidget" name="widget_42" native="true">
+                <property name="minimumSize">
+                 <size>
+                  <width>318</width>
+                  <height>0</height>
+                 </size>
+                </property>
+                <property name="maximumSize">
+                 <size>
+                  <width>318</width>
+                  <height>16777215</height>
+                 </size>
+                </property>
+                <layout class="QHBoxLayout" name="horizontalLayout_42">
+                 <item>
+                  <widget class="QCheckBox" name="checkBox_30">
+                   <property name="text">
+                    <string>피자치즈</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QLabel" name="pizzaCheese">
+                   <property name="text">
+                    <string>+2000원</string>
+                   </property>
+                   <property name="alignment">
+                    <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+                   </property>
+                  </widget>
+                 </item>
+                </layout>
+               </widget>
+              </item>
+              <item>
+               <widget class="QWidget" name="widget_43" native="true">
+                <property name="minimumSize">
+                 <size>
+                  <width>318</width>
+                  <height>0</height>
+                 </size>
+                </property>
+                <property name="maximumSize">
+                 <size>
+                  <width>318</width>
+                  <height>16777215</height>
+                 </size>
+                </property>
+                <layout class="QHBoxLayout" name="horizontalLayout_43">
+                 <item>
+                  <widget class="QCheckBox" name="checkBox_31">
+                   <property name="text">
+                    <string>체다치즈</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QLabel" name="chedaCheese">
+                   <property name="text">
+                    <string>+2000원</string>
+                   </property>
+                   <property name="alignment">
+                    <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+                   </property>
+                  </widget>
+                 </item>
+                </layout>
+               </widget>
+              </item>
+              <item>
+               <widget class="QWidget" name="widget_44" native="true">
+                <property name="minimumSize">
+                 <size>
+                  <width>318</width>
+                  <height>0</height>
+                 </size>
+                </property>
+                <property name="maximumSize">
+                 <size>
+                  <width>318</width>
+                  <height>16777215</height>
+                 </size>
+                </property>
+                <layout class="QHBoxLayout" name="horizontalLayout_44">
+                 <item>
+                  <widget class="QCheckBox" name="checkBox_32">
+                   <property name="text">
+                    <string>적양파</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QLabel" name="redOnion">
+                   <property name="text">
+                    <string>+1000원</string>
+                   </property>
+                   <property name="alignment">
+                    <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+                   </property>
+                  </widget>
+                 </item>
+                </layout>
+               </widget>
+              </item>
+              <item>
+               <widget class="QWidget" name="widget_45" native="true">
+                <property name="minimumSize">
+                 <size>
+                  <width>318</width>
+                  <height>0</height>
+                 </size>
+                </property>
+                <property name="maximumSize">
+                 <size>
+                  <width>318</width>
+                  <height>16777215</height>
+                 </size>
+                </property>
+                <layout class="QHBoxLayout" name="horizontalLayout_45">
+                 <item>
+                  <widget class="QCheckBox" name="checkBox_33">
+                   <property name="text">
+                    <string>새송이</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QLabel" name="saesongi">
+                   <property name="text">
+                    <string>+1000원</string>
+                   </property>
+                   <property name="alignment">
+                    <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+                   </property>
+                  </widget>
+                 </item>
+                </layout>
+               </widget>
+              </item>
+              <item>
+               <widget class="QWidget" name="widget_46" native="true">
+                <property name="minimumSize">
+                 <size>
+                  <width>318</width>
+                  <height>0</height>
+                 </size>
+                </property>
+                <property name="maximumSize">
+                 <size>
+                  <width>318</width>
+                  <height>16777215</height>
+                 </size>
+                </property>
+                <layout class="QHBoxLayout" name="horizontalLayout_46">
+                 <item>
+                  <widget class="QCheckBox" name="checkBox_34">
+                   <property name="text">
+                    <string>스위트콘</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QLabel" name="sweetCorn">
+                   <property name="text">
+                    <string>+1000원</string>
+                   </property>
+                   <property name="alignment">
+                    <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+                   </property>
+                  </widget>
+                 </item>
+                </layout>
+               </widget>
+              </item>
+              <item>
+               <widget class="QWidget" name="widget_47" native="true">
+                <property name="minimumSize">
+                 <size>
+                  <width>318</width>
+                  <height>0</height>
+                 </size>
+                </property>
+                <property name="maximumSize">
+                 <size>
+                  <width>318</width>
+                  <height>16777215</height>
+                 </size>
+                </property>
+                <layout class="QHBoxLayout" name="horizontalLayout_47">
+                 <item>
+                  <widget class="QCheckBox" name="checkBox_35">
+                   <property name="text">
+                    <string>블랙올리브</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QLabel" name="blackOlive">
+                   <property name="text">
+                    <string>+1000원</string>
+                   </property>
+                   <property name="alignment">
+                    <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+                   </property>
+                  </widget>
+                 </item>
+                </layout>
+               </widget>
+              </item>
+              <item>
+               <widget class="QWidget" name="widget_48" native="true">
+                <property name="minimumSize">
+                 <size>
+                  <width>318</width>
+                  <height>0</height>
+                 </size>
+                </property>
+                <property name="maximumSize">
+                 <size>
+                  <width>318</width>
+                  <height>16777215</height>
+                 </size>
+                </property>
+                <layout class="QHBoxLayout" name="horizontalLayout_48">
+                 <item>
+                  <widget class="QCheckBox" name="checkBox_36">
+                   <property name="text">
+                    <string>할라피뇨</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QLabel" name="halapinyo">
+                   <property name="text">
+                    <string>+1000원</string>
+                   </property>
+                   <property name="alignment">
+                    <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+                   </property>
+                  </widget>
+                 </item>
+                </layout>
+               </widget>
+              </item>
+              <item>
+               <widget class="QWidget" name="widget_49" native="true">
+                <property name="minimumSize">
+                 <size>
+                  <width>318</width>
+                  <height>0</height>
+                 </size>
+                </property>
+                <property name="maximumSize">
+                 <size>
+                  <width>318</width>
+                  <height>16777215</height>
+                 </size>
+                </property>
+                <layout class="QHBoxLayout" name="horizontalLayout_49">
+                 <item>
+                  <widget class="QCheckBox" name="checkBox_37">
+                   <property name="text">
+                    <string>조각감자</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QLabel" name="piecePotato">
+                   <property name="text">
+                    <string>+1000원</string>
+                   </property>
+                   <property name="alignment">
+                    <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+                   </property>
+                  </widget>
+                 </item>
+                </layout>
+               </widget>
+              </item>
+              <item>
+               <widget class="QWidget" name="widget_50" native="true">
+                <property name="minimumSize">
+                 <size>
+                  <width>318</width>
+                  <height>0</height>
+                 </size>
+                </property>
+                <property name="maximumSize">
+                 <size>
+                  <width>318</width>
+                  <height>16777215</height>
+                 </size>
+                </property>
+                <layout class="QHBoxLayout" name="horizontalLayout_50">
+                 <item>
+                  <widget class="QCheckBox" name="checkBox_38">
+                   <property name="text">
+                    <string>파인애플</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QLabel" name="pineApple">
+                   <property name="text">
+                    <string>+1000원</string>
+                   </property>
+                   <property name="alignment">
+                    <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+                   </property>
+                  </widget>
+                 </item>
+                </layout>
+               </widget>
+              </item>
+              <item>
+               <widget class="QWidget" name="widget_51" native="true">
+                <property name="minimumSize">
+                 <size>
+                  <width>318</width>
+                  <height>0</height>
+                 </size>
+                </property>
+                <property name="maximumSize">
+                 <size>
+                  <width>318</width>
+                  <height>16777215</height>
+                 </size>
+                </property>
+                <layout class="QHBoxLayout" name="horizontalLayout_51">
+                 <item>
+                  <widget class="QCheckBox" name="checkBox_39">
+                   <property name="text">
+                    <string>감자샐러드</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QLabel" name="potatoSalad">
+                   <property name="text">
+                    <string>+2000원</string>
+                   </property>
+                   <property name="alignment">
+                    <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+                   </property>
+                  </widget>
+                 </item>
+                </layout>
+               </widget>
+              </item>
+              <item>
+               <widget class="QWidget" name="widget_52" native="true">
+                <property name="minimumSize">
+                 <size>
+                  <width>318</width>
+                  <height>0</height>
+                 </size>
+                </property>
+                <property name="maximumSize">
+                 <size>
+                  <width>318</width>
+                  <height>16777215</height>
+                 </size>
+                </property>
+                <layout class="QHBoxLayout" name="horizontalLayout_52">
+                 <item>
+                  <widget class="QCheckBox" name="checkBox_40">
+                   <property name="text">
+                    <string>비프불고기</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QLabel" name="beefBullgogi">
+                   <property name="text">
+                    <string>+3000원</string>
+                   </property>
+                   <property name="alignment">
+                    <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+                   </property>
+                  </widget>
+                 </item>
+                </layout>
+               </widget>
+              </item>
+              <item>
+               <widget class="QWidget" name="widget_53" native="true">
+                <property name="minimumSize">
+                 <size>
+                  <width>318</width>
+                  <height>0</height>
+                 </size>
+                </property>
+                <property name="maximumSize">
+                 <size>
+                  <width>318</width>
+                  <height>16777215</height>
+                 </size>
+                </property>
+                <layout class="QHBoxLayout" name="horizontalLayout_53">
+                 <item>
+                  <widget class="QCheckBox" name="checkBox_41">
+                   <property name="text">
+                    <string>핫치킨</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QLabel" name="hotChicken">
+                   <property name="text">
+                    <string>+3000원</string>
+                   </property>
+                   <property name="alignment">
+                    <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+                   </property>
+                  </widget>
+                 </item>
+                </layout>
+               </widget>
+              </item>
+              <item>
+               <widget class="QWidget" name="widget_54" native="true">
+                <property name="minimumSize">
+                 <size>
+                  <width>318</width>
+                  <height>0</height>
+                 </size>
+                </property>
+                <property name="maximumSize">
+                 <size>
+                  <width>318</width>
+                  <height>16777215</height>
+                 </size>
+                </property>
+                <layout class="QHBoxLayout" name="horizontalLayout_54">
+                 <item>
+                  <widget class="QCheckBox" name="checkBox_42">
+                   <property name="text">
+                    <string>바베큐치킨</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QLabel" name="barbiqueChicken">
+                   <property name="text">
+                    <string>+3000원</string>
+                   </property>
+                   <property name="alignment">
+                    <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+                   </property>
+                  </widget>
+                 </item>
+                </layout>
+               </widget>
+              </item>
+              <item>
+               <widget class="QWidget" name="widget_55" native="true">
+                <property name="minimumSize">
+                 <size>
+                  <width>318</width>
+                  <height>0</height>
+                 </size>
+                </property>
+                <property name="maximumSize">
+                 <size>
+                  <width>318</width>
+                  <height>16777215</height>
+                 </size>
+                </property>
+                <layout class="QHBoxLayout" name="horizontalLayout_55">
+                 <item>
+                  <widget class="QCheckBox" name="checkBox_43">
+                   <property name="text">
+                    <string>페퍼로니</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QLabel" name="peperoni">
+                   <property name="text">
+                    <string>+3000원</string>
+                   </property>
+                   <property name="alignment">
+                    <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+                   </property>
+                  </widget>
+                 </item>
+                </layout>
+               </widget>
+              </item>
+              <item>
+               <widget class="QWidget" name="widget_56" native="true">
+                <property name="minimumSize">
+                 <size>
+                  <width>318</width>
+                  <height>0</height>
+                 </size>
+                </property>
+                <property name="maximumSize">
+                 <size>
+                  <width>318</width>
+                  <height>16777215</height>
+                 </size>
+                </property>
+                <layout class="QHBoxLayout" name="horizontalLayout_56">
+                 <item>
+                  <widget class="QCheckBox" name="checkBox_44">
+                   <property name="text">
+                    <string>칵테일소세지</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QLabel" name="caktailSoseji">
+                   <property name="text">
+                    <string>+3000원</string>
+                   </property>
+                   <property name="alignment">
+                    <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+                   </property>
+                  </widget>
+                 </item>
+                </layout>
+               </widget>
+              </item>
+              <item>
+               <widget class="QWidget" name="widget_57" native="true">
+                <property name="minimumSize">
+                 <size>
+                  <width>318</width>
+                  <height>0</height>
+                 </size>
+                </property>
+                <property name="maximumSize">
+                 <size>
+                  <width>318</width>
+                  <height>16777215</height>
+                 </size>
+                </property>
+                <layout class="QHBoxLayout" name="horizontalLayout_57">
+                 <item>
+                  <widget class="QCheckBox" name="checkBox_45">
+                   <property name="text">
+                    <string>크랩맛살</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QLabel" name="crapMatsal">
+                   <property name="text">
+                    <string>+3000원</string>
+                   </property>
+                   <property name="alignment">
+                    <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+                   </property>
+                  </widget>
+                 </item>
+                </layout>
+               </widget>
+              </item>
+              <item>
+               <widget class="QWidget" name="widget_58" native="true">
+                <property name="minimumSize">
+                 <size>
+                  <width>318</width>
+                  <height>0</height>
+                 </size>
+                </property>
+                <property name="maximumSize">
+                 <size>
+                  <width>318</width>
+                  <height>16777215</height>
+                 </size>
+                </property>
+                <layout class="QHBoxLayout" name="horizontalLayout_58">
+                 <item>
+                  <widget class="QCheckBox" name="checkBox_46">
+                   <property name="text">
+                    <string>베이컨</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QLabel" name="bacon">
+                   <property name="text">
+                    <string>+3000원</string>
+                   </property>
+                   <property name="alignment">
+                    <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+                   </property>
+                  </widget>
+                 </item>
+                </layout>
+               </widget>
+              </item>
+              <item>
+               <widget class="QWidget" name="widget_59" native="true">
+                <property name="minimumSize">
+                 <size>
+                  <width>318</width>
+                  <height>0</height>
+                 </size>
+                </property>
+                <property name="maximumSize">
+                 <size>
+                  <width>318</width>
+                  <height>16777215</height>
+                 </size>
+                </property>
+                <layout class="QHBoxLayout" name="horizontalLayout_59">
+                 <item>
+                  <widget class="QCheckBox" name="checkBox_47">
+                   <property name="text">
+                    <string>칵테일새우</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QLabel" name="caktailSeoo">
+                   <property name="text">
+                    <string>+3000원</string>
+                   </property>
+                   <property name="alignment">
+                    <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+                   </property>
+                  </widget>
+                 </item>
+                </layout>
+               </widget>
+              </item>
+              <item>
+               <widget class="QWidget" name="widget_60" native="true">
+                <property name="minimumSize">
+                 <size>
+                  <width>318</width>
+                  <height>0</height>
+                 </size>
+                </property>
+                <property name="maximumSize">
+                 <size>
+                  <width>318</width>
+                  <height>16777215</height>
+                 </size>
+                </property>
+                <layout class="QHBoxLayout" name="horizontalLayout_60">
+                 <item>
+                  <widget class="QCheckBox" name="checkBox_48">
+                   <property name="text">
+                    <string>중새우</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QLabel" name="joongseoo">
+                   <property name="text">
+                    <string>+3000원</string>
+                   </property>
+                   <property name="alignment">
+                    <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+                   </property>
+                  </widget>
+                 </item>
+                </layout>
+               </widget>
+              </item>
+             </layout>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+    </item>
+    <item>
+     <widget class="QWidget" name="widget_64" native="true">
+      <layout class="QHBoxLayout" name="horizontalLayout_63">
+       <item>
+        <widget class="QLabel" name="label_sumPrice">
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="btn">
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(28, 251, 255);</string>
+         </property>
+         <property name="text">
+          <string>장바구니 담기</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
